@@ -1,0 +1,17 @@
+**/.idea/
+**/bazel-*
+**/target/
+*.sw*
+*~
+.DS_Store
+perf.*
+.gdb*
+cargo-cache/
+cargo-target/
+.cargo-target-strict
+.docker-cargo-*
+massif.*
+cargo-timing.*
+cargo-timing-*
+
+TODO
