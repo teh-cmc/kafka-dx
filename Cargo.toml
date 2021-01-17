@@ -5,3 +5,9 @@ authors = ["Clement Rey <cr.rey.clement@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+anyhow = "1.0"
+bytes = "1.0"
+fasthash = "0.4"
+parking_lot = "0.11"
+rdkafka = "0.24"
+tokio = { version = "1.0", features = ["full", "parking_lot"] }
